@@ -1,0 +1,228 @@
+/*---------------------------------------------------------------- 
+  Copyright:
+  Copyright (C) 2008 - 2011 IceTheme. All Rights Reserved
+  
+  License:
+  Copyrighted Commercial Software 
+  
+  Author:
+  IceTheme - http://wwww.icetheme.com
+  
+---------------------------------------------------------------- */
+
+.ice-tabs-candy { 
+	position:relative;
+	width:auto;
+	padding:0;
+	height:auto;}
+	
+	.ice-tabs-candy li {
+		list-style-type:none!important;	}
+		
+/* main flash */
+.ice-tabs-candy .ice-main-wapper{ 
+	overflow:hidden;
+	position:relative;}
+	
+	.ice-tabs-candy .ice-main-wapper .ice-main-item { 
+		overflow:hidden;
+		display:none;
+		padding:0px;
+		margin:0px; 
+		height:100%;
+		width:100%;
+		position:absolute;}
+		
+		.ice-tabs-candy .ice-main-wapper .ice-main-item h3.ice-title { 
+			line-height:1.35em;
+			font-size:2.2em;
+			clear:none;
+			color:#fff;
+			float:left;
+			width:56%;
+			padding:3px 0 2px;
+			text-shadow:1px 1px 1px rgba(0,0,0,.9);
+			margin:0 0 .3em;}
+			.ice-tabs-candy .ice-main-wapper .ice-main-item h3.ice-title a { 
+				color:#fff;
+				-webkit-transition:all .5s ease-out;
+				-moz-transition:all .5s ease-out;
+				-o-transition:all .5s ease-out;
+				transition:all .5s ease-out;	}
+				.ice-tabs-candy .ice-main-wapper .ice-main-item h3.ice-title a:hover {
+					text-decoration:none;
+					text-shadow:3px 3px 15px rgba(255,255,255,.6);} 
+			
+		
+		.ice-tabs-candy .ice-main-wapper .ice-main-item .ice-description{
+			padding:0;
+			font-size:1.2em;
+			line-height:1.7em;
+			color:#fff;
+			color:rgba(255,255,255,.7)}
+		
+		.ice-tabs-candy .ice-main-wapper .ice-main-item .ice-description img {
+			float:right;
+			background:rgba(0,0,0,.2);
+			border: 1px solid #CE271D;
+			-moz-box-shadow:0px 0px 10px #E02F25;
+			box-shadow:0px 0px 10px #E65951;
+			float: right;
+			margin: 5px;
+			padding: 4px;}	
+			
+			
+		.ice-tabs-candy .ice-main-wapper a.ice-readmore {
+			display:block;
+			color:#F0C237;
+			font-size:1em;}
+			
+			
+			
+/* item navigator */
+.ice-tabs-candy .ice-navigator-wrapper {
+	clear:both;
+	margin-top:20px;
+	padding:16px 0 14px;
+	position:relative;	
+	background:url(../../../../images/showcase_small.png) repeat-x top;}
+	
+	.ice-tabs-candy .ice-navigator-outer  { 
+		position:absolute;
+		height:62px!important; 
+		right:0;
+		top:0px;
+		z-index:3;
+		height:300px;
+		width:310px;
+		overflow:hidden }
+		 
+		.ice-tabs-candy  ul.ice-navigator { 
+			top:0;
+			padding:0; 
+			margin:0;
+			position:absolute;
+			width:100%;}
+			
+			.ice-tabs-candy  ul.ice-navigator li { 
+				cursor:hand;
+				cursor:pointer;
+				list-style:none!important;
+				width:100%;
+				padding:0!important;
+				margin:0!important;
+				border-right:1px solid rgba(255,255,255,.2);
+				-moz-transition: all .4s ease-in;
+				-o-transition: all .4s ease-in;
+				-webkit-transition: background-color .4s ease-in;
+				transition: all .4s ease-in;  }
+			
+				.ice-tabs-candy  ul.ice-navigator li div {
+					padding:0 10px;}
+					.ice-tabs-candy  ul.ice-navigator li:first-child div {
+						padding-left:0;}
+					
+				.ice-tabs-candy .ice-navigator li h4.ice-title {
+					 font-size:1em;
+					 font-family:Georgia, "Times New Roman", Times, serif; 
+					 clear:none;
+					 color:#fff;
+					 color:rgba(255,255,255,.6);
+					 font-weight:normal;
+					 margin:0!important;
+					 -webkit-transition:all .5s ease-out;
+					-moz-transition:all .5s ease-out;
+					-o-transition:all .5s ease-out;
+					transition:all .5s ease-out; }
+					 
+				.ice-tabs-candy .ice-navigator li div img {	
+					float:left;
+					border: 1px solid transparent;
+					margin:0 .75em .75em 0;
+					 -webkit-transition:all .5s ease-out;
+					-moz-transition:all .5s ease-out;
+					-o-transition:all .5s ease-out;
+					transition:all .5s ease-out;}
+					
+						
+					.ice-tabs-candy  ul.ice-navigator li:hover  {}
+						
+					.ice-tabs-candy  ul.ice-navigator li.active div img {
+						background-color:#CE271D;}	 
+						.ice-tabs-candy  ul.ice-navigator li.active  .ice-title {
+							 color:#fff;}	
+				
+					
+
+/**
+ * BUTTONS CONTROL
+ */
+.ice-tabs-candy .ice-buttons-control{}
+	
+	.ice-tabs-candy .ice-next, 
+	.ice-tabs-candy .ice-previous {
+		background:url(arrows.png) no-repeat;	
+		width:26px;
+		position:absolute;
+		text-indent:-9999em;
+		height:35px;
+		top:40%;
+		z-index:10;
+		margin:0px;
+		cursor:hand; 
+		cursor:pointer;
+		opacity:.2;
+		-webkit-transition:all .5s ease-out;
+		-moz-transition:all .5s ease-out;
+		-o-transition:all .5s ease-out;
+		transition:all .5s ease-out;}
+		
+		.ice-tabs-candy .ice-next {
+			background-position:0 -35px;
+			right:-25px;
+			left:auto;}
+			
+		.ice-tabs-candy .ice-previous {	
+			background-position:0 0;
+			left:-28px;
+			right:auto;}
+			
+		.ice-tabs-candy .ice-next:hover,
+		.ice-tabs-candy .ice-previous:hover { 
+			opacity:.8;}
+			
+/*
+ * css for override move the main wapper to the right side 
+ */
+ /* RIGHT ALIGMENT */
+.ice-right-sl-candy .ice-navigator-wrapper { float:right; }
+.ice-right-sl-candy .ice-main-wapper		  { margin-left:auto; margin-right:inherit; float:right }
+.ice-right-sl-candy .ice-navigator-outer   { position:relative }
+ /* LEFT ALIGMENT */
+.ice-left-sl-candy .ice-navigator-wrapper { float:left; }
+.ice-left-sl-candy .ice-main-wapper		 { margin-left:auto; margin-right:inherit; float:left }
+.ice-left-sl-candy .ice-navigator-outer	 { position:relative }
+				 
+ /* TOP, BOTTOm ALIGMENT */
+.ice-top-sl-candy .ice-navigator-outer,  .ice-bottom-sl-candy .ice-navigator-outer{ position:relative; float:left; width:960px!important }
+.ice-top-sl-candy .ice-navigator, 	    .ice-bottom-sl-candy .ice-navigator 		{ width:9999em !important }
+.ice-top-sl-candy .ice-navigator li,     .ice-bottom-sl-candy .ice-navigator li 	{ display:block; float:left; background-image:url(tab_gradient_1.png)!important; background-position:left top!important; background-repeat:repeat-y!important }
+
+
+
+/* Clearing floats without extra markup
+   Based on How To Clear Floats Without Structural Markup by PiE
+   [http://www.positioniseverything.net/easyclearing.html] */
+
+.clearfix:after,  .container:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;}
+
+.clearfix { display: inline-block; }   
+
+* html .clearfix { height: 1%; }
+
+.clearfix { display: block; }
